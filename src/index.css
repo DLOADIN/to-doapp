@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  }
+}
+
+@layer components {
+  .glass-effect {
+    @apply bg-white/80 backdrop-blur-sm border border-white/20 shadow-xl;
+  }
+  
+  .todo-item {
+    @apply transition-all duration-300 ease-in-out hover:shadow-lg hover:-translate-y-0.5;
+  }
+  
+  .checkbox-custom {
+    @apply appearance-none w-5 h-5 border-2 border-gray-300 rounded-md bg-white checked:bg-gradient-to-r checked:from-blue-500 checked:to-purple-600 checked:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all duration-200;
+  }
+  
+  .checkbox-custom:checked::after {
+    content: '✓';
+    @apply text-white text-sm font-bold flex items-center justify-center h-full;
+  }
+}
