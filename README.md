@@ -1,5 +1,4 @@
 # Todo App
-
 A beautiful, modern todo application built with React, TypeScript, and Tailwind CSS. Features a clean glass-morphism design with smooth animations and persistent storage.
 
 ## ✨ Features
@@ -86,11 +85,5 @@ The app is fully responsive and optimized for:
 
 ## 🔧 Available Scripts
 
-- `npm run dev` - Start development server
 - `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-
-## 📄 License
-
-This project is open source and available under the MIT License.
+- `npm run dev` - Start development server
