@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { CheckSquare, Trash2 } from 'lucide-react';
 import { TodoInput } from './components/TodoInput';
 import { TodoItem } from './components/TodoItem';
